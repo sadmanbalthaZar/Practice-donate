@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+/* banner styles */
+.banner{
+    align-items: center;
+    margin 0 300px ;
+}
+.banner-title{
+    font-weight: 600;
+    font-size: 50px;
+}
+.btn-primary{
+    color: rgba(252, 241, 240, 0.993);
+    font-weight: 400;
+    font-size: 18px;
+    border: 0;
+    padding: 05px 20px;
+    height: 64px;
+    border-radius: 4px;
+    background-color: tomato;
+}
+.banner-description{
+    font-size: 15px;
+    font-weight: 400;
+}
