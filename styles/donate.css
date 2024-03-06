@@ -37,3 +37,28 @@
     text-align: center;
     margin-bottom: 20px;
 }
+/* main section */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* donate today section */
+.donate{
+    margin-top: 130px;
+    background-color: rgb(240, 250, 249);
+    border-radius: 20px;
+    padding: 130px 150px;
+}
+.donate-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 30px;
+}
+.donate-description{
+    margin-bottom: 30px;
+    font-size: 12px;
+    color: rgb(78, 74, 74);
+}
