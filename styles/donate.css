@@ -108,6 +108,7 @@ main{
     margin-bottom: 20px;
     box-shadow: 10px 10px 30px ;
     color: rgb(95, 89, 89);
+    text-align: center;
 }
 .plan-description{
     margin-bottom: 30px;
@@ -146,4 +147,42 @@ main{
 }
 .plans-description{
     color: rgb(78, 74, 74);
+}
+/* their lives section */
+.their-lives{
+    margin-bottom: 150px;
+    background-color: rgb(253, 253, 253);
+}
+.wrapper{
+    margin: 150px auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-box h3{
+    font-size: 30px;
+    font-weight: 800;
+}
+.text-box p{
+    color: rgb(78, 74, 74);
+    padding: 0;
+    margin-top: 10px;
+}
+img{
+    max-width: 340px;
+    float: right;
+    border-radius: 5px;
+    margin-right: 15px;
+}
+.btn-secondary{
+    color: rgba(252, 241, 240, 0.993);
+    font-weight: 400;
+    font-size: 18px;
+    border: 0;
+    padding: 05px 13px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: tomato;
+    margin-top: 20px;
 }
