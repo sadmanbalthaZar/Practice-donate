@@ -165,9 +165,10 @@ main{
     font-weight: 800;
 }
 .text-box p{
+    margin-top: 20px;
+    font-size: 12px;
     color: rgb(78, 74, 74);
-    padding: 0;
-    margin-top: 10px;
+    
 }
 img{
     max-width: 340px;
@@ -184,5 +185,32 @@ img{
     height: 40px;
     border-radius: 4px;
     background-color: tomato;
+    margin-top: 10px;
+}
+/* they need us section */
+.they-need-us{
+    margin-bottom: 150px;
+    background-color: rgb(253, 253, 253);
+}
+.wrapper-2{
+    margin: 150px auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-2{
+    max-width: 340px;
+    float: left;
+    border-radius: 5px;
+    margin-right: 35px;
+}
+.text-box-2 h3{
+    font-size: 30px;
+    font-weight: 800;
+}
+.text-box-2 p{
     margin-top: 20px;
+    font-size: 12px;
+    color: rgb(78, 74, 74);
 }
