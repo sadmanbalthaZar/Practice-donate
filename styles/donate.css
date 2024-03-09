@@ -150,7 +150,7 @@ main{
 }
 /* their lives section */
 .their-lives{
-    margin-bottom: 150px;
+    margin-top: 180px;
     background-color: rgb(253, 253, 253);
 }
 .wrapper{
@@ -213,4 +213,54 @@ img{
     margin-top: 20px;
     font-size: 12px;
     color: rgb(78, 74, 74);
+}
+/* get updates section */
+.updates{
+    text-align: center;
+}
+.content_flow{
+    margin: 150px auto;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+.update-title{
+    font-size: 30px;
+    font-weight: 800;
+}
+.update-description{
+    margin-top: 20px;
+    font-size: 12px;
+    color: rgb(78, 74, 74);
+    margin-bottom: 20px;
+}
+.sidebar{
+    background-color: rgb(255, 245, 233);
+    padding: 70px 80px ;
+    margin-left: 210px;
+    margin-right: 210px;
+    display: flex;
+    
+}
+.item{
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+    border: 4px ;
+}
+.col-1{
+    font-weight: 600;
+    font-size: 13px;
+    flex-grow: 1;
+    background-color: rgb(233, 227, 228);
+    text-align: justify;
+    color: rgb(173, 164, 165);
+}
+.col-2{
+    font-weight: 600;
+    font-size: 13px;
+    flex-grow: 0.2;
+    text-align:center;
+    background-color: tomato;
+    color: beige;
 }
